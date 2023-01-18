@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Sofia+Sans&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="head">
+        <div class="logo">
+            <img src="assets/logos-web.png" alt="LOGO" class="logo-img animate__animated animate__flash animate__delay-1s" />
+            <h1 class="logo-title">BINTANG.S</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li class="atas"><a class="text" href="#jasa">JASA</a></li>
+                <li class="atas"><a class="text" onclick="redirWhatsapp()">KONTAK</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram()">FOLLOW ME</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">HELLO FRIENDS</p>
+            <p class="diskripsi">MY NAME BINTANG SATRIA TAMTAMA</p>
+            <img src="assets/profile.jpg" alt="bintang satria" class="img-foto" />
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="tentang">
+            <p class="title">BINTANG </p>
+            <p class="diskripsi">BELAJAR SAMPE JADI</p>
+            <span class="spn">Jika berminat bisa hubungi kami dibawah ini</span>
+            <div class="mt-10">
+                <button class="btn-cta" href="mailto:bintangsatria105@gmail.com">Kerja Sama</button>
+            </div>
+        </div>
+        <div class="body-card">
+            <div class="card">
+                <div class="card-item" id="jasa">
+                    <i class="fa-solid fa-award icon"></i>
+                    <p class="card-title">Pelayanan Juara</p>
+                    <p class="card-diskripsi">Termurah dan terbaik untuk pemula</p>
+                </div>
+                <div class="card-item">
+                    <i class="fa-solid fa-pen-ruler icon"></i>
+                    <p class="card-title">Desain Vektor</p>
+                    <p class="card-diskripsi">Pembuatan gambar vektor, layanan setiap saat</p>
+                </div>
+                <div class="card-item">
+                    <i class="fa-solid fa-laptop-code icon"></i>
+                    <p class="card-title">Pembuatan Web Untuk Pemula</p>
+                    <p class="card-diskripsi">Full service 24/7 sampe jadi </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3>
+            <p class="title">&copy;BINTANG.SATRIA.T 2023</p>
+        </h3>
+    </footer>
+    <script>
+        function redirInstagram() {
+            window.location.href = "https://instagram.com/t.bintang_"
+        }
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/+6285722665607"
+        }
+    </script>
+</body>
+
+</html>
